@@ -4,10 +4,10 @@ class Hash
     hash.each do |key, value|
       if value == arguments
         array << key
-        return array
   end
 end
 end
+array
 end
 
 # (:animals)
